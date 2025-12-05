@@ -1,0 +1,35 @@
+# Mike-Shiva Stock Detector Requirements
+# Pre-Mover Detection System
+
+# Core Dependencies
+python-dotenv==1.0.0
+pandas==2.1.4
+numpy==1.26.2
+
+# Market Data
+yfinance==0.2.33
+alpha-vantage==2.3.1
+
+# AI & Machine Learning
+openai==1.6.1
+
+# Technical Analysis
+ta-lib==0.4.28  # Optional: Advanced technical indicators
+
+# Utilities
+requests==2.31.0
+python-dateutil==2.8.2
+
+# Development & Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+black==23.12.1
+flake8==6.1.0
+
+# Logging & Monitoring
+colorlog==6.8.0
+
+# Optional: For advanced features
+# beautifulsoup4==4.12.2  # Web scraping for news
+# selenium==4.16.0  # Browser automation
+# tweepy==4.14.0  # Twitter sentiment analysis
